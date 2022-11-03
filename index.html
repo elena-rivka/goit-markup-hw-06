@@ -458,6 +458,24 @@
               </li>
             </ul>
           </div>
+          <form class="footer-form">
+            <p class="footer-title">Підпишіться на розсилку</p>
+            <div class="test-foot">
+              <input
+                type="email"
+                name="user-email"
+                class="footer-input"
+                placeholder="E-mail"
+                required
+              />
+              <button type="submit" class="footer-button">
+                Підписатися
+                <svg class="footer-sand-icon" width="24" height="24">
+                  <use href="./images/logo.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </footer>
     </div>
@@ -525,7 +543,18 @@
               placeholder="Введіть текст"
             ></textarea>
           </div>
-
+          <!-- <label class="consent">
+            <input
+              type="checkbox"
+              name="polici"
+              value="consent"
+              class="checkbox"
+            />
+            <span class="consent__text"
+              >Соглашаюсь с рассылкой и принимаю
+            </span>
+            <a href="" class="link">Условия договора</a>
+          </label> -->
           <button type="submit" class="modal-button-send">Відправити</button>
         </form>
       </div>
