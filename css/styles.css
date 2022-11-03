@@ -656,7 +656,7 @@ img {
 .modal-button-close {
     width: 30px;
     height: 30px;
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     position: absolute;
@@ -666,7 +666,7 @@ img {
     align-items: center;
     justify-content: center;
 
-    fill: #000;
+    fill: var(--color-logo);
 
     transition: border-color var(--anim-trans), fill var(--anim-trans);
 }
@@ -800,7 +800,7 @@ img {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-color);
     }
 
 .user-privacy {
